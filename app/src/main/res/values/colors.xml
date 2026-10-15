@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Realistic Glassmorphism Palette (Dark Charcoal & Glossy Glass) -->
+    <color name="primary">#FFFFFF</color>
+    <color name="primary_dark">#181B20</color>
+    <color name="primary_light">#2E333D</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="accent_vibrant">#FFFFFF</color>
+
+    <!-- Backgrounds & Surfaces (Matching Image Slate Background) -->
+    <color name="background">#22252A</color>
+    <color name="surface">#2D323A</color>
+    <color name="card_border">#50FFFFFF</color>
+    <color name="glass_border">#80FFFFFF</color>
+
+    <!-- Text Colors (Crisp White & Muted Silver) -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#D1D5DB</color>
+    <color name="text_muted">#9CA3AF</color>
+
+    <!-- Header Gradient -->
+    <color name="gradient_start">#1A1D22</color>
+    <color name="gradient_center">#22252A</color>
+    <color name="gradient_end">#282C33</color>
+
+    <!-- Avatar Colors -->
+    <color name="avatar_1">#3A3F49</color>
+    <color name="avatar_2">#434954</color>
+    <color name="avatar_3">#2D323A</color>
+    <color name="avatar_4">#4F5663</color>
+    <color name="avatar_5">#343942</color>
+    <color name="avatar_6">#3E4450</color>
+    <color name="avatar_7">#2B2F37</color>
+</resources>

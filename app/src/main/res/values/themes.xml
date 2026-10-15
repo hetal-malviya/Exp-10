@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Times New Roman / Serif Font Glass Theme) -->
+    <style name="Base.Theme.Exp10" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Global Times New Roman (Serif) Font Family -->
+        <item name="android:fontFamily">serif</item>
+        <item name="fontFamily">serif</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#E2E8F0</item>
+        <item name="colorOnPrimaryContainer">#09090B</item>
+
+        <item name="colorSecondary">#27272A</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.Exp10" parent="Base.Theme.Exp10" />
+</resources>

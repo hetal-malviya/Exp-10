@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ContactSync</string>
+    <string name="app_title">ContactSync</string>
+    <string name="app_subtitle">Data Sharing with Content Provider</string>
+
+    <!-- Dashboard Strings -->
+    <string name="search_hint">Search contacts by name or number…</string>
+    <string name="total_contacts">Total Contacts</string>
+    <string name="refresh_contacts">Refresh</string>
+    <string name="info_title">How Content Provider Works</string>
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_required_msg">ContactSync needs permission to access system contacts via ContactsContract ContentProvider.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="no_contacts_found">No contacts found</string>
+    <string name="no_contacts_subtext">Try adjusting your search query or add contacts on your device.</string>
+    <string name="loading_contacts">Loading contacts from ContentProvider…</string>
+
+    <!-- Detail Activity -->
+    <string name="contact_details">Contact Details</string>
+    <string name="share_contact">Share Contact</string>
+    <string name="call_contact">Call</string>
+    <string name="message_contact">Message</string>
+    <string name="copy_number">Copy Number</string>
+    <string name="copied_to_clipboard">Phone number copied to clipboard!</string>
+
+    <!-- Info Activity -->
+    <string name="cp_guide_title">Content Provider Guide</string>
+    <string name="what_is_cp_title">1. What is a Content Provider?</string>
+    <string name="what_is_cp_desc">A Content Provider manages access to a central repository of data. It encapsulates data and provides mechanisms for defining data security. Content Providers are the standard interface that connects data in one process with code running in another process.</string>
+
+    <string name="what_is_uri_title">2. What is a Content URI?</string>
+    <string name="what_is_uri_desc">A Content URI identifies data in a provider. For Contacts, the URI is:\nContactsContract.CommonDataKinds.Phone.CONTENT_URI\n(content://com.android.contacts/data/phones)</string>
+
+    <string name="what_is_cursor_title">3. What is a Cursor?</string>
+    <string name="what_is_cursor_desc">A Cursor provides random read-write access to the result set returned by a database query. We iterate through the Cursor using cursor.moveToNext() to read columns like DISPLAY_NAME and NUMBER.</string>
+
+    <string name="permission_guide_title">4. Runtime Permissions</string>
+    <string name="permission_guide_desc">Android requires explicit user approval before an app reads sensitive personal data like Contacts. ContactSync requests READ_CONTACTS at runtime safely.</string>
+</resources>

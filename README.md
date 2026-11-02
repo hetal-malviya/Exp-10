@@ -25,7 +25,7 @@ Exp10/
 │   │   ├── java/com/example/exp_10/
 │   │   │   ├── Contact.kt                         # Kotlin Data Model
 │   │   │   ├── ContactAdapter.kt                  # Kotlin RecyclerView Adapter
-│   │   │   ├── MainActivity.java                  # Kotlin Dashboard, ContentResolver & ContentObserver
+│   │   │   ├── MainActivity.kt                    # Kotlin Dashboard, ContentResolver & ContentObserver
 │   │   │   ├── ContactDetailActivity.kt           # Kotlin Details Activity & Sharing Intent
 │   │   │   └── ContentProviderInfoActivity.kt      # Kotlin Educational Guide Screen
 │   │   ├── res/
